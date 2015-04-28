@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Guidance Magento Team <magento@guidance.com>
+ * @category    Guidance
+ * @package     Error
+ * @copyright   Copyright (c) 2014 Guidance Solutions (http://www.guidance.com)
+ */
+-->
+<config>
+    <modules>
+        <Guidance_Error>
+            <version>1.0.0</version>
+        </Guidance_Error>
+    </modules>
+    <global>
+        <helpers>
+            <guidance_error>
+                <class>Guidance_Error_Helper</class>
+            </guidance_error>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <guidance_error>
+                <use>standard</use>
+                <args>
+                    <frontName>guidance_error</frontName>
+                    <module>Guidance_Error</module>
+                </args>
+            </guidance_error>
+        </routers>
+    </frontend>
+</config>

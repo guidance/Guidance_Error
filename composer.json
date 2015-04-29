@@ -9,7 +9,7 @@
             "email":"gknop@guidance.com"
         }
     ],
-    "require": {
-        "magento-hackathon/magento-composer-installer": "2.*"
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": ">=2.0.0"
     }
 }

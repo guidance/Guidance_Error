@@ -1,0 +1,15 @@
+{
+    "name": "guidance/error",
+    "type": "magento-module",
+    "license":"Apache-2.0",
+    "description":"This simple module creates a controller action which throws an exception, triggering the error page on most installations. Useful for testing error page customizations.",
+    "authors":[
+        {
+            "name":"Gordon Knoppe",
+            "email":"gknop@guidance.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

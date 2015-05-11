@@ -10,7 +10,7 @@
 <config>
     <modules>
         <Guidance_Error>
-            <version>1.0.0</version>
+            <version>0</version>
         </Guidance_Error>
     </modules>
     <global>
